@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/queryTableFragment"
+        android:icon="@drawable/ic_trafic"
+        android:title="@string/query_table_title" />
+
+    <item
+        android:id="@+id/statisticFragment"
+        android:icon="@drawable/ic_stats"
+        android:title="@string/statistic_title" />
+
+</menu>

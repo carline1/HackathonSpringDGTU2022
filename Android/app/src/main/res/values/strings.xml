@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">HackathonSpring2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="statistic_title">Статистика</string>
+    <string name="query_table_title">Трафик</string>
+    <string name="flags">TAGS: </string>
+    <string name="ip">IP: </string>
+    <string name="time">Time: </string>
+
+    <string-array name="time_intervals">
+        <item>30 сек</item>
+        <item>1 мин</item>
+        <item>2 мин</item>
+        <item>5 мин</item>
+    </string-array>
 </resources>

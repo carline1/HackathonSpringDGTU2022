@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/queryTableFragment">
+
+    <fragment
+        android:id="@+id/statisticFragment"
+        android:name="com.example.hackathonspring2022.ui.features.statistic_fragment.StatisticFragment"
+        android:label="statistic_fragment"
+        tools:layout="@layout/statistic_fragment" />
+
+    <fragment
+        android:id="@+id/queryTableFragment"
+        android:name="com.example.hackathonspring2022.ui.features.query_table_fragment.QueryTableFragment"
+        android:label="query_table_fragment"
+        tools:layout="@layout/query_table_fragment" />
+</navigation>
